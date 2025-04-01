@@ -27,4 +27,4 @@ jobs:
         # Exclude all dependencies that originate solely in the 'buildSrc' project
         dependency-graph-exclude-projects: 'toolkit'
         # Exclude dependencies that are only resolved in test classpaths
-        dependency-graph-exclude-configurations: '.*[Tt]est(Compile|Runtime)Classpath'
+        dependency-graph-exclude-configurations: '*tronprotocol*'
