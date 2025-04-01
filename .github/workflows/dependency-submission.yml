@@ -21,3 +21,6 @@ jobs:
         java-version: 8
     - name: Generate and submit dependency graph
       uses: gradle/actions/dependency-submission@v4
+      with:
+        # The gradle project is not in the root of the repository.
+        build-root-directory: tools
