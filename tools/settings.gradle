@@ -1,4 +1,4 @@
-rootProject.name = 'tron-docker'
+rootProject.name = 'tools'
 include('docker')
 include('toolkit')
 include('stress-test')
