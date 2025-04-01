@@ -25,5 +25,5 @@ jobs:
         # The gradle project is not in the root of the repository.
         build-root-directory: tools
         # Exclude all dependencies that originate solely in the 'buildSrc' project
-        dependency-graph-exclude-projects: 'stress_test'
+        dependency-graph-exclude-projects: 'toolkit'
 
