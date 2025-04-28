@@ -2,7 +2,7 @@ module github.com/tronprotocol/tron-docker
 
 go 1.23.0
 
-toolchain go1.23.5
+toolchain go1.24.1
 
 require (
 	github.com/MakeNowJust/heredoc/v2 v2.0.1
@@ -10,7 +10,7 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0
 	golang.org/x/crypto v0.35.0
-	golang.org/x/net v0.34.0
+	golang.org/x/net v0.36.0
 )
 
 require (
